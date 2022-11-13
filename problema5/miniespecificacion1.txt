@@ -1,0 +1,32 @@
+1-Inicio
+
+2-valor_total, d [0, n]
+3-valor_agua, d [0, n]
+4-valor_telefono, d [0, n]
+5-costo_litro, d [0 , n]
+6-numero_litro, d [0, n]
+7-costo_minuto, d [0, n]
+8-numero_minuto, d [0, n]
+9-edad, i [0, n]
+
+10-Escribir "Ingresar su edad"
+11-Leer edad
+12-Escribir "Ingresar el numero de litros de agua consumidos en el mes"
+13-Leer numero_litro
+14-Escribir "Ingresar el costo de cada litro de agua"
+15-Leer costo_litro
+16-Escribir "Ingresar el numero de minutos gastados en el mes"
+17-Leer numero_minuto
+18-Escribir "Ingresar el costo de cada minuto"
+19-Leer costo_minuto
+
+20-valor_agua = costo_litro * numero_litro
+21-valor_telefono = costo_minuto * numero_minuto
+22-valor_total = valor_agua + valor_telefono
+
+23-Si edad < 20 entonces
+24-   valor_total = valor_total - (valor_total/20)
+25-Fin Si
+
+26-Escribir "El valor total a pagar en servicios basicos es " + valor_total
+27-Fin

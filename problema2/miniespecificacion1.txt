@@ -1,0 +1,16 @@
+1-Inicio
+
+2-descripcion, x(50) [{a-z}, {A-Z},{BS}]
+3-cantidad, i[0, n]
+4-precio_unitario, d[0, n]
+5-precio_total, d[0, n]
+6-descuento = 15
+
+7-precio_total = precio_unitario * cantidad
+
+8-Si cantidad > 50 entonces
+9-   precio_total = precio_total - (precio_total/15)
+10-Fin Si
+
+11-Escribir "El costo del pedido es: " + precio_total
+12-Fin

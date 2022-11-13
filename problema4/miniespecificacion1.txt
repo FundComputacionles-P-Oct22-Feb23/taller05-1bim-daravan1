@@ -1,0 +1,33 @@
+1-Inicio
+
+2-numeros_d, i [0, n]
+3-precio_d, d [0, n]
+4-subtotal, d [0, n]
+5-total, d [0, n]
+6-descuento, d [0, n]
+
+7-Escribir "Ingresar el numero de dias de estadia"
+8-Leer numero_d
+9-Escribir "Ingresar el precio diario de la habitacion"
+10-Leer precio_d
+
+11-subtotal = numeros_d * precio_d
+
+12-Si numero_d > 5 entonces
+13-   descuento = subtotal/10
+14-   total = subtotal - descuento
+15-Fin si
+16-Si numero_d > 10 entonces
+17-   descuento = subtotal/15
+18-   total = subtotal - descuento
+19-Fin Si
+20-Si numero_d > 15 entonces
+21-   descuento = subtotal/20
+22-   total = subtotal - descuento
+23-Fin Si
+
+24-Escribir "Su subtotal es: " + subtotal
+25-Escribir "Su descuento es de: " + descuento
+26-Escribir "Su total es: " + total
+
+27-Fin

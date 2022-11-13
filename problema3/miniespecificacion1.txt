@@ -1,0 +1,12 @@
+1-Inicio
+
+2-grados_c, d [0, n]
+3-grados_f, d [0, n]
+4-grados_k, d [0, n]
+
+5-Si grados_c >= 0 and grados_c <= 100
+6-   grados_f = grados_c*(9/5) + 32
+7-   grados_k = grados_c + 273.15
+8-Fin Si
+
+9-Fin

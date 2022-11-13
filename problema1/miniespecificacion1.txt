@@ -1,0 +1,24 @@
+
+1- Incio
+
+2-costo_kwh, d [0, n]
+3-numero_kw, d,[0, n]
+3-edad, i[0, n]
+4-descuento = 10
+5-valor_planilla, d[0, n]
+
+6-Escribir "Ingresar el valor del costo de kilovatios/hora"
+7-Leer costo_kwh
+8-Escribir "Ingresar el numero de kilovatios consumidos en el mes"
+9-Leer numero_kw
+10-Escribir "Ingresar su edad"
+11-Leer edad
+
+12-valor_planilla = numero_kw * costo_kwh
+
+13-Si edad > 65 entonces
+14-  valor_planilla = valor_planilla - (valor_planilla/descuento)
+15-Fin Si
+
+16-Escribir "El valor a cancelar es: " + valor_planilla
+17-Fin
